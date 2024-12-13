@@ -48,4 +48,74 @@ Retorna a lista completa de carros disponíveis.
   }
 ]
 ```
+### 2.**get /:sigla**
+ 
+ retorna as informações de carro especifico, identificado pela sigla.
 
+ ### exemplo de resposta:
+
+ ´´´json
+ {
+
+    "nome": 'ferrari",
+    "sigla": "FER"
+    "velocidademaxima": 340,
+    "potencia": 800,
+    "consumo": 5.5,
+    "preco": 3000
+    
+ }
+ ...
+
+ ### 3 ***POST /***
+
+ Adicina um novo carro á lista.
+
+ ### exemplo de requição
+
+ 'post\'
+
+ **contente-type:** application/json
+
+ ´´´jsonn
+
+ {
+    "nome": "BWM",
+    "sigla": "BMW",
+    "velocidademaxima": 200
+    "potencia": 500,
+    "consumo": 7.5,
+    "aceleracao": 4.0,
+    "preco": 1200000
+
+ }
+ ´´´´json
+ "nome": "BMW".
+ "sigla": "BMW",
+ "velocidademaxima": 200
+ "consumo":200
+ "acelercao":4.0,
+ "preco": 130000
+
+ }
+ ´´´
+
+ ### s.**DELETE /:siglas**
+
+ renova um carro especifico pela sigla.
+
+ ### Exemplo de resposta:
+
+ ´´´json
+
+ {
+    "nome": "BMW",
+    "sigla": "BMW",
+    "velocidademaxima":,
+    "potencia": 200,
+    "consumo": 7.5,
+    "acelarçao":4.0,
+    "preco" 13000
+    
+     }
+´´´
